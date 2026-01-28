@@ -11,10 +11,12 @@ import SuccessStory from "@/components/SuccessStory";
 import ConsultationForm from "@/components/ConsultationForm";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import GitHubIcon from "@/components/GitHubIcon";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-paper overflow-x-hidden">
+      <GitHubIcon />
       <Navbar />
       <Hero />
       <BuildingKnowledge />

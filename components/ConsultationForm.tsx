@@ -53,7 +53,7 @@ export default function ConsultationForm() {
               Book a Free Consultation
             </h2>
             <p className="text-ink font-rubik font-normal text-[14px] lg:text-[16px] leading-[160%] text-center">
-              Send us a messge or book your free consultation today to get started the Maslin Way. If we're a good fit - we'll get started right away.
+              Send us a messge or book your free consultation today to get started the Maslin Way. If we&apos;re a good fit - we&apos;ll get started right away.
             </p>
           </div>
           <form onSubmit={handleSubmit} className="flex flex-col gap-6 md:gap-8">
@@ -232,7 +232,7 @@ export default function ConsultationForm() {
               {/* Message textarea */}
               <div className="flex flex-col gap-1">
                 <label htmlFor="message" className="text-ink font-rubik font-bold text-[14px] lg:text-[16px] leading-[160%] tracking-[0.05em] uppercase">
-                  IS THERE ANYTHING ELSE YOU'D LIKE US TO KNOW?
+                  IS THERE ANYTHING ELSE YOU&apos;D LIKE US TO KNOW?
                 </label>
                 <textarea
                   id="message"

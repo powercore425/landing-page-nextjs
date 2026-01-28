@@ -6,7 +6,7 @@ const steps = [
     title: "CONNECT",
     description: (
       <>
-        Fill out our 1-minute <span className="text-gold font-bold underline">contact form</span> to book your free consultation and we will get back to you within 48 hours. You will be hearing directly from our co-founder Phil and we'll find out if Maslin Academy is right for you and your child.
+        Fill out our 1-minute <span className="text-gold font-bold underline">contact form</span> to book your free consultation and we will get back to you within 48 hours. You will be hearing directly from our co-founder Phil and we&apos;ll find out if Maslin Academy is right for you and your child.
       </>
     ),
   },
@@ -15,7 +15,7 @@ const steps = [
     title: "ASSESS",
     description: (
       <>
-        If Maslin Academy is right for you, we'll get started right away with our <span className="text-gold font-bold underline">Gap Analysis</span> to discover what exactly the student is missing in their education and create a holistic, custom-tailored plan that includes knowledge gaps, optimal behavioral approach and areas of focus for lasting improvements.
+        If Maslin Academy is right for you, we&apos;ll get started right away with our <span className="text-gold font-bold underline">Gap Analysis</span> to discover what exactly the student is missing in their education and create a holistic, custom-tailored plan that includes knowledge gaps, optimal behavioral approach and areas of focus for lasting improvements.
       </>
     ),
   },

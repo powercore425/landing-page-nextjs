@@ -33,7 +33,7 @@ export default function BridgeGap() {
               Ready to Bridge the Gap?
             </h2>
             <p className="text-base md:text-lg lg:text-xl text-white/80 mb-6 md:mb-8 leading-relaxed font-rubik">
-              In one comprehensive session, we'll pinpoint exactly where the gaps are and map a personalized path forward.
+              In one comprehensive session, we&apos;ll pinpoint exactly where the gaps are and map a personalized path forward.
             </p>
             <div className="flex flex-col lg:flex-row gap-4">
               <button className="w-full sm:w-auto px-5 py-2 bg-gold text-midnight rounded-lg font-semibold text-base md:text-lg hover:bg-gold/90 transition-colors font-rubik">

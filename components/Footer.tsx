@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 export default function Footer() {
+  const { ref, className, style } = useAnimation({ direction: "fadeIn", delay: 100 });
+
   return (
-    <footer className="w-full bg-midnight relative">
+    <footer ref={ref} className={`w-full bg-midnight relative ${className}`} style={style}>
       {/* Main Content Area */}
       <div className="w-full bg-midnight py-8 md:py-12 px-4 sm:px-12 lg:px-20">
         <div className="w-full max-w-[1120px] mx-auto flex flex-col gap-8 md:gap-12">

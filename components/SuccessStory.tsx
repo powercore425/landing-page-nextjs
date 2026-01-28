@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 export default function SuccessStory() {
+  const { ref, className, style } = useAnimation({ direction: "right", delay: 100 });
+
   return (
-    <section className="w-full py-12 md:py-20 bg-midnight relative overflow-hidden">
+    <section ref={ref} className={`w-full py-12 md:py-20 bg-midnight relative overflow-hidden ${className}`} style={style}>
       {/* Background Image */}
       <div className="absolute inset-0 opacity-10">
         <Image

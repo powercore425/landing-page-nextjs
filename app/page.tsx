@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-paper">
+    <main className="min-h-screen bg-paper overflow-x-hidden">
       <Navbar />
       <Hero />
       <BuildingKnowledge />

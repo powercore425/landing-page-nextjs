@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 export default function StopGuessing() {
+  const { ref, className, style } = useAnimation({ direction: "left", delay: 100 });
+
   return (
-    <section className="w-full flex flex-col gap-12 md:gap-20 py-12 md:py-20 bg-paper">
+    <section ref={ref} className={`w-full flex flex-col gap-12 md:gap-20 py-12 md:py-20 bg-paper ${className}`} style={style}>
       <div className="w-full max-w-[1120px] mx-auto py-8 md:py-12">
         <div className="flex flex-col sm:flex-row items-start px-4 sm:px-12 lg:px-20 gap-8 md:gap-12 lg:gap-20">
           {/* Left - Image */}

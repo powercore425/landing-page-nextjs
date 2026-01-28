@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 const steps = [
   {
@@ -27,8 +30,10 @@ const steps = [
 ];
 
 export default function GettingStarted() {
+  const { ref, className, style } = useAnimation({ direction: "zoomIn", delay: 100 });
+
   return (
-    <section className="w-full py-12 md:py-24 relative">
+    <section ref={ref} className={`w-full py-12 md:py-24 relative ${className}`} style={style}>
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image

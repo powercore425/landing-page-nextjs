@@ -1,13 +1,34 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setIsScrolled(scrollPosition > 20);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 w-full bg-paper flex flex-col items-center py-3 md:py-[23px] px-4 sm:px-12 lg:px-20 gap-2 md:gap-[10px] min-h-[80px] md:h-[96px]">
+    <nav className={`fixed top-0 left-0 right-0 z-50 w-full bg-paper flex flex-col items-center py-3 md:py-[23px] px-4 sm:px-12 lg:px-20 gap-2 md:gap-[10px] min-h-[80px] md:h-[96px] transition-all duration-300 ${isScrolled ? "shadow-lg" : ""
+      }`}>
+      {/* Bottom gradient when scrolled */}
+      {isScrolled && (
+        <div
+          className="absolute bottom-0 left-0 right-0 h-[3px] pointer-events-none"
+          style={{
+            background: "linear-gradient(90deg, transparent 0%, #DFB86A 20%, #DFB86A 80%, transparent 100%)",
+          }}
+        />
+      )}
       <div className="w-full max-w-[1120px] h-[50px] flex flex-row justify-between items-center gap-4 md:gap-8 lg:gap-40">
         {/* Logo */}
         <div className="w-[120px] md:w-[150px] lg:w-[186px] h-[40px] md:h-[50px] flex items-center justify-center flex-shrink-0 overflow-hidden">

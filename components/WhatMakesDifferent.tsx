@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 const features = [
   {
@@ -19,8 +22,10 @@ const features = [
 ];
 
 export default function WhatMakesDifferent() {
+  const { ref, className, style } = useAnimation({ direction: "zoomIn", delay: 100 });
+
   return (
-    <section id="approach" className="w-full bg-paper py-12 md:py-20">
+    <section id="approach" ref={ref} className={`w-full bg-paper py-12 md:py-20 ${className}`} style={style}>
       <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20">
         <div className="flex flex-col items-center gap-8 md:gap-12">
           <div className="flex flex-col items-center gap-3 md:gap-4 w-full max-w-[920px]">

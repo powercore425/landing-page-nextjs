@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 export default function Hero() {
+  const { ref, className, style } = useAnimation({ direction: "fadeIn", delay: 0 });
+
   return (
-    <section className="relative w-full flex flex-col items-center justify-center min-h-[400px] md:h-[522px] overflow-hidden mt-[80px] md:mt-[96px]">
+    <section ref={ref} className={`relative w-full flex flex-col items-center justify-center min-h-[400px] md:h-[522px] overflow-hidden mt-[80px] md:mt-[96px] ${className}`} style={style}>
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -16,7 +21,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="px-4 sm:px-12 lg:px-20 xl:px-40 w-full flex flex-row justify-between items-center max-auto">
+      <div className="px-4 sm:px-12 lg:px-20 xl:px-20 2xl:px-40 w-full max-w-[1920px] mx-auto flex flex-row justify-between items-center">
         <div className="z-10 flex flex-col w-full max-w-[700px] min-h-[300px] md:h-[362px]">
           {/* Fill Container */}
           <div className="flex flex-col items-start gap-6 md:gap-12 w-full h-full">

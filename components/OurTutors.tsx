@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 const tutors = [
   {
@@ -24,8 +27,10 @@ const tutors = [
 ];
 
 export default function OurTutors() {
+  const { ref, className, style } = useAnimation({ direction: "down", delay: 100 });
+
   return (
-    <section id="tutors" className="w-full py-12 md:py-20 bg-midnight relative overflow-hidden">
+    <section id="tutors" ref={ref} className={`w-full py-12 md:py-20 bg-midnight relative overflow-hidden ${className}`} style={style}>
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image

@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 export default function BridgeGap() {
+  const { ref, className, style } = useAnimation({ direction: "up", delay: 100 });
+
   return (
-    <section className="w-full py-12 md:py-20 bg-midnight relative overflow-hidden">
+    <section ref={ref} className={`w-full py-12 md:py-20 bg-midnight relative overflow-hidden ${className}`} style={style}>
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
         <Image

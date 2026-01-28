@@ -101,6 +101,43 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+/* Fixed background for FAQ section - prevents offsetting when content expands */
+.faq-background-fixed {
+  position: relative;
+}
+
+.faq-background-fixed::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-image: url('/images/faq_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  pointer-events: none;
+  height: 100vh;
+  min-height: 100%;
+}
+
+/* Hidden Scrollbar - Scroll functionality still works */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  background: transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useAnimation } from "./AnimatedSection";
 
 const testimonials = [
   {
@@ -19,8 +22,10 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
+  const { ref, className, style } = useAnimation({ direction: "right", delay: 100 });
+
   return (
-    <section className="w-full bg-paper py-12">
+    <section ref={ref} className={`w-full bg-paper py-12 ${className}`} style={style}>
       <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 py-8 md:py-12">
         <div className="flex flex-col items-center gap-8 md:gap-12">
           <div className="flex flex-col items-center gap-3 md:gap-4 w-full max-w-[920px]">

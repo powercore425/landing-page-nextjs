@@ -39,7 +39,7 @@ export default function GettingStarted() {
         />
       </div>
 
-      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-10 relative z-10">
+      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 relative z-10">
         {/* White Card Container */}
         <div className="bg-paper rounded-[20px] shadow-lg p-6 md:p-8 lg:p-12 xl:p-16">
           {/* Header */}

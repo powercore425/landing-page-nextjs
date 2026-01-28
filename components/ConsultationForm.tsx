@@ -45,7 +45,7 @@ export default function ConsultationForm() {
   return (
     <section className="w-full py-12 md:py-20 relative overflow-hidden bg-paper">
       {/* Background - Dark blue top, gold pattern bottom */}
-      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-10 relative z-10">
+      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 relative z-10">
         {/* White Card Container */}
         <div className="bg-paper rounded-[20px]">
           <div className="flex flex-col gap-4 md:gap-6 mb-8 md:mb-12">

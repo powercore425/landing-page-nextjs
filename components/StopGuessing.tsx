@@ -4,7 +4,7 @@ export default function StopGuessing() {
   return (
     <section className="w-full flex flex-col gap-12 md:gap-20 py-12 md:py-20 bg-paper">
       <div className="w-full max-w-[1120px] mx-auto py-8 md:py-12">
-        <div className="flex flex-col sm:flex-row items-start px-4 sm:px-12 lg:px-10 gap-8 md:gap-12 lg:gap-20">
+        <div className="flex flex-col sm:flex-row items-start px-4 sm:px-12 lg:px-20 gap-8 md:gap-12 lg:gap-20">
           {/* Left - Image */}
           <div className="relative w-full aspect-square sm:w-[300px] sm:h-[300px] lg:w-[350px] lg:h-[350px] flex-shrink-0 overflow-hidden">
             <div className="absolute inset-0 rounded-[20px] overflow-hidden">
@@ -23,18 +23,18 @@ export default function StopGuessing() {
               GAP ANALYSIS
             </p>
             <h2 className="text-ink font-rubik font-bold text-[24px] md:text-[32px] lg:text-[40px] leading-[110%]">
-              Stop Guessing Why They're Struggling. Learn Exactly What's Holding Them Back.
+              Stop Guessing Why They&apos;re Struggling. Learn Exactly What&apos;s Holding Them Back.
             </h2>
             <p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]">
-              At Maslin Academy, we don't guess – we systematically identify the exact gaps holding them back and fix the root cause, building a foundation of <span className="font-bold text-gold italic">CURIOSITY</span> and confidence that extends far beyond graduation.
+              At Maslin Academy, we don&apos;t guess – we systematically identify the exact gaps holding them back and fix the root cause, building a foundation of <span className="font-bold text-gold italic">CURIOSITY</span> and confidence that extends far beyond graduation.
             </p>
             <button className="w-full sm:w-auto px-5 py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
-              What's A Gap Analysis?
+              What&apos;s A Gap Analysis?
             </button>
           </div>
         </div>
       </div>
-      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-10">
+      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20">
         <div className="flex flex-col sm:flex-row gap-8 md:gap-12 lg:gap-20 items-start">
           {/* Left - Content */}
           <div className="flex flex-col gap-4 md:gap-6 flex-1">

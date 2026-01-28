@@ -7,7 +7,6 @@ import Testimonials from "@/components/Testimonials";
 import GettingStarted from "@/components/GettingStarted";
 import OurTutors from "@/components/OurTutors";
 import StopGuessing from "@/components/StopGuessing";
-import ExamPrep from "@/components/ExamPrep";
 import SuccessStory from "@/components/SuccessStory";
 import ConsultationForm from "@/components/ConsultationForm";
 import FAQ from "@/components/FAQ";
@@ -25,7 +24,6 @@ export default function Home() {
       <GettingStarted />
       <OurTutors />
       <StopGuessing />
-      <ExamPrep />
       <SuccessStory />
       <ConsultationForm />
       <FAQ />

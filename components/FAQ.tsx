@@ -34,7 +34,7 @@ export default function FAQ() {
         />
       </div>
 
-      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-10 flex flex-col gap-8 md:gap-12 relative z-10">
+      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 flex flex-col gap-8 md:gap-12 relative z-10">
         <h2 className="text-ink font-rubik font-bold text-[28px] md:text-[34px] lg:text-[38px] xl:text-[42px] leading-[110%] text-center">
           Frequently Asked Questions
         </h2>

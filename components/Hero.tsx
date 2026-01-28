@@ -36,7 +36,7 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row items-start gap-4 md:gap-6">
                 {/* Let's Talk Button */}
                 <button className="w-full sm:w-auto flex flex-row justify-center items-center px-5 py-2 bg-ink text-paper border-2 border-ink rounded font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
-                  Let's Talk
+                  Let&apos;s Talk
                 </button>
 
                 {/* Our Approach Button */}

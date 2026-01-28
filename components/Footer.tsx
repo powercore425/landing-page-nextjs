@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-midnight relative">
       {/* Main Content Area */}
-      <div className="w-full bg-midnight py-8 md:py-12 px-4 sm:px-12 lg:px-10">
+      <div className="w-full bg-midnight py-8 md:py-12 px-4 sm:px-12 lg:px-20">
         <div className="w-full max-w-[1120px] mx-auto flex flex-col gap-8 md:gap-12">
           <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-12">
             {/* Logo */}

@@ -4,7 +4,7 @@ export default function BuildingKnowledge() {
   return (
     <section className="w-full bg-paper py-8 md:py-12">
       <div className="w-full max-w-[1120px] mx-auto py-8 md:py-12">
-        <div className="flex flex-col sm:flex-row items-start px-4 sm:px-12 lg:px-10 gap-8 md:gap-12 lg:gap-20">
+        <div className="flex flex-col sm:flex-row items-start px-4 sm:px-12 lg:px-20 gap-8 md:gap-12 lg:gap-20">
           {/* Left - Image */}
           <div className="w-full aspect-square sm:w-[300px] sm:h-[300px] lg:w-[350px] lg:h-[350px] flex-shrink-0 relative">
             <div className="absolute inset-0 rounded-[20px] overflow-hidden">

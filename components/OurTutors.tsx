@@ -36,7 +36,7 @@ export default function OurTutors() {
         />
       </div>
 
-      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-10 relative z-10">
+      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 relative z-10">
         <div className="text-center mb-8 md:mb-16">
           <p className="text-paper font-rubik font-light text-[14px] md:text-[16px] leading-[24px] tracking-[0.1em] uppercase mb-3 md:mb-4">
             OUR TUTORS

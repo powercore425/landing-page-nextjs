@@ -21,7 +21,7 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section className="w-full bg-paper py-12">
-      <div className="w-full max-w-[1120px] mx-auto px-4 md:px-8 lg:px-20 py-8 md:py-12">
+      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 py-8 md:py-12">
         <div className="flex flex-col items-center gap-8 md:gap-12">
           <div className="flex flex-col items-center gap-3 md:gap-4 w-full max-w-[920px]">
             <p className="text-ink font-rubik font-light text-[14px] md:text-[16px] leading-[24px] tracking-[0.1em] uppercase text-center">

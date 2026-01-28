@@ -14,7 +14,7 @@ export default function BridgeGap() {
       </div>
 
       <div className="w-full max-w-[1120px] mx-auto relative z-10">
-        <div className="flex flex-col sm:flex-row items-start px-4 sm:px-12 lg:px-10 gap-8 md:gap-12 lg:gap-20">
+        <div className="flex flex-col sm:flex-row items-start px-4 sm:px-12 lg:px-20 gap-8 md:gap-12 lg:gap-20">
           {/* Left - Image */}
           <div className="w-full aspect-square sm:w-[300px] sm:h-[300px] lg:w-[350px] lg:h-[350px] flex-shrink-0 relative">
             <div className="absolute w-full aspect-square rounded-full overflow-hidden">

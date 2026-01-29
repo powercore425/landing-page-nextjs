@@ -1,14 +1,14 @@
 import PageLayout from "@/components/PageLayout";
-import OurTutors from "@/components/OurTutors";
 import FAQ from "@/components/FAQ";
 import Title from "@/components/Title";
 import ContactUsForm from "@/components/ContactUsForm";
+import OurStory from "@/components/OurStory";
 
 export default function AboutUsPage() {
     return (
         <PageLayout>
             <Title title="ABOUT US" />
-            <OurTutors isShowMore={true} isShowAction={false} />
+            <OurStory />
             <FAQ />
             <ContactUsForm />
         </PageLayout>

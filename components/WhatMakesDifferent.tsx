@@ -43,7 +43,7 @@ export default function WhatMakesDifferent() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="flex-1 bg-paper border-2 border-border rounded-[20px] px-4 md:px-2 py-8 md:py-12 flex flex-col items-center gap-8 md:gap-12"
+                className="flex-1 bg-paper rounded-[20px] px-4 md:px-2 py-8 md:py-12 flex flex-col items-center gap-8 md:gap-12"
               >
                 <div className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] flex items-center justify-center relative">
                   <Image

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useAnimation } from "./AnimatedSection";
 
 export default function StopGuessing() {
@@ -33,9 +34,11 @@ export default function StopGuessing() {
             <p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]">
               At Maslin Academy, we don&apos;t guess – we systematically identify the exact gaps holding them back and fix the root cause, building a foundation of <span className="font-bold text-gold italic">CURIOSITY</span> and confidence that extends far beyond graduation.
             </p>
-            <button className="w-full sm:w-auto px-5 py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+            <Link
+              href="/gap-analysis"
+              className="w-full sm:w-auto px-5 py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
               What&apos;s A Gap Analysis?
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -52,9 +55,11 @@ export default function StopGuessing() {
             <p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]">
               Mental Performance Coaches turn test anxiety into calm focus, replace perfectionism with healthy <span className="text-gold font-bold">CONFIDENCE</span>, and teach students how to bounce back from a bad quiz in 10 minutes instead of spiraling for days.
             </p>
-            <button className="w-full sm:w-auto px-5 py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+            <Link
+              href="/mpc"
+              className="w-full sm:w-auto px-5 py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
               What is MPC?
-            </button>
+            </Link>
           </div>
 
           {/* Right - Image */}

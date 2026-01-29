@@ -82,14 +82,14 @@ export default function OurTutors({ isShowMore = false, isShowAction = true }: O
           {tutors.map((tutor, index) => {
             if (index >= 4 && !isShowMore) return null;
 
-            return <div key={index} className="bg-paper rounded-[20px] shadow-lg p-4 md:p-6 flex flex-col items-center">
+            return <div key={index} className="bg-paper rounded-[20px] shadow-lg p-4 md:p-6 flex flex-col items-center group cursor-pointer transition-all duration-300 hover:shadow-xl hover-bounce">
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-paper mb-3 md:mb-4 flex items-center justify-center overflow-hidden flex-shrink-0">
                 <Image
                   src={tutor.image}
                   alt={tutor.name}
                   width={128}
                   height={128}
-                  className="object-cover w-full h-full"
+                  className="object-cover w-full h-full transition-transform duration-300 ease-out group-hover:scale-110"
                 />
               </div>
               <h3 className="text-ink font-rubik font-bold text-[14px] md:text-[16px] px-1 uppercase mb-2 md:mb-3 text-center">

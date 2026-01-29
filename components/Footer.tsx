@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
 
             {/* Navigation Links */}
-            <div className="flex flex-col sm:flex-row gap-8 md:gap-12 lg:gap-20">
+            <div className="flex flex-col sm:flex-row w-full md:w-auto justify-between items-start gap-8 md:gap-12 lg:gap-20">
               {/* Left Column */}
               <div className="flex flex-col gap-2 md:gap-3">
                 <a href="#" className="text-paper font-rubik font-normal text-[14px] md:text-[16px] leading-[160%] hover:opacity-80 transition-opacity whitespace-nowrap">

@@ -104,7 +104,7 @@ export default function OurTutors({ isShowMore = false, isShowAction = true }: O
         </div>
         {
           isShowAction && <div className="text-center">
-            <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-gold text-ink rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+            <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-gold text-ink rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-60 transition-opacity">
               {isShowMore ? "Book a Consultation" : "See All Tutors"}
             </button>
           </div>

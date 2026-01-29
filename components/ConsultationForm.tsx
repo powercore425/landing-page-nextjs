@@ -269,7 +269,7 @@ export default function ConsultationForm({ isContact = false }: ConsultationForm
             <div className="flex flex-col items-center">
               <button
                 type="submit"
-                className="w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity"
+                className="w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-60 transition-opacity"
               >
                 Send Message
               </button>

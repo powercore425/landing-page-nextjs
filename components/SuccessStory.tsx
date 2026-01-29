@@ -18,7 +18,7 @@ export default function SuccessStory() {
         />
       </div>
 
-      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 z-10">
+      <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20 relative z-10">
         <div className="flex flex-col sm:flex-row gap-8 md:gap-12 lg:gap-20 items-start">
           {/* Left - Content */}
           <div className="text-white flex flex-col gap-4 md:gap-6 flex-1 items-start">
@@ -36,7 +36,7 @@ export default function SuccessStory() {
                 She didn&apos;t just pass; she built the foundation to thrive at the university level, proving that struggling students can surpass expectations with the right support.
               </p>
             </div>
-            <button className="w-full sm:w-auto px-5 py-2 text-gold bg-transparent border-2 border-gold rounded-[4px] font-rubik font-normal text-[14px] md:text-[16px] leading-[160%] hover:opacity-90 transition-opacity whitespace-nowrap">
+            <button className="w-full sm:w-auto px-5 py-2 text-gold bg-transparent border-2 border-gold rounded-[4px] font-rubik font-normal text-[14px] md:text-[16px] leading-[160%] hover:bg-gold hover:text-paper transition-colors whitespace-nowrap">
               Read the Case Study
             </button>
           </div>

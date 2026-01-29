@@ -36,7 +36,7 @@ export default function BridgeGap() {
               forward.
             </p>
             <div className="flex flex-col lg:flex-row gap-4">
-              <button className="w-full sm:w-auto px-5 py-2 bg-gold text-midnight rounded-lg font-semibold text-base md:text-lg hover:bg-gold/90 transition-colors font-rubik">
+              <button className="w-full sm:w-auto px-5 py-2 bg-gold text-midnight rounded-lg font-semibold text-base md:text-lg hover:bg-opacity-60 transition-colors font-rubik">
                 Book A Gap Analysis
               </button>
               <button className="w-full sm:w-auto px-5 py-2 bg-transparent text-white rounded-lg font-semibold text-base md:text-lg border-2 border-white hover:bg-white hover:text-midnight transition-colors font-rubik">

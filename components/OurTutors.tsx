@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useAnimation } from "./AnimatedSection";
+import { useRouter } from "next/navigation";
 
 const tutors = [
   {
@@ -53,6 +54,13 @@ interface OurTutorsProps {
 
 export default function OurTutors({ isShowMore = false, isShowAction = true }: OurTutorsProps) {
   const { ref, className, style } = useAnimation({ direction: "down", delay: 100 });
+  const router = useRouter();
+
+  const handleClick = () => {
+    if (!isShowMore) {
+      router.push("/our-tutors");
+    }
+  };
 
   return (
     <section id="tutors" ref={ref} className={`w-full py-12 md:py-20 bg-midnight relative overflow-hidden ${className}`} style={style}>
@@ -104,7 +112,7 @@ export default function OurTutors({ isShowMore = false, isShowAction = true }: O
         </div>
         {
           isShowAction && <div className="text-center">
-            <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-gold text-ink rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-60 transition-opacity">
+            <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-gold text-ink rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-60 transition-opacity" onClick={handleClick}>
               {isShowMore ? "Book a Consultation" : "See All Tutors"}
             </button>
           </div>

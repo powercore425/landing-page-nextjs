@@ -36,11 +36,11 @@ export default function Testimonials() {
               What People Are Saying
             </h2>
           </div>
-          <div className="flex flex-col md:flex-row gap-6 md:gap-12 w-full max-w-[920px]">
+          <div className="flex flex-col md:flex-row items-start gap-6 md:gap-12 w-full max-w-[920px]">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="flex-1 bg-paper border-2 border-border rounded-[20px] p-6 md:p-8 lg:p-12 flex flex-col items-center gap-8 md:gap-12"
+                className="flex-1 bg-paper border-2 border-border rounded-[20px] p-6 md:p-8 lg:p-12 flex flex-col items-center gap-8 md:gap-12 transition-transform duration-300 ease-out hover:scale-105 hover:shadow-xl cursor-pointer"
               >
                 <div className="flex flex-col items-center gap-4 w-full">
                   <div className="flex flex-row gap-1 self-end mr-4">

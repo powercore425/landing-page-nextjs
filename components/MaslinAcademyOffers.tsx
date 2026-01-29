@@ -5,19 +5,19 @@ import { useAnimation } from "./AnimatedSection";
 
 const features = [
     {
-        title: "Diagnostic Assessments",
-        description: "We identify knowledge gaps,  mental blocks, attitude barriers, and missing foundations to accelerate progress.",
+        title: "Strategic Gap Analysis",
+        description: "A comprehensive assessment that reveals the specific knowledge gaps standing between your current performance and your goals.",
         image: "/images/approach1.png",
     },
     {
-        title: "Individualized Approach",
-        description: "We embrace differences in each student and cater to custom needs on an ongoing basis.",
+        title: "Private Tutoring – The Maslin Way",
+        description: "Personalized sessions designed to strengthen foundational skills, ignite intellectual curiosity, and foster a lifelong love of learning.",
         image: "/images/approach2.png",
     },
     {
-        title: "Create Lifelong Learners",
-        description: "We promote intellectual growth, curiosity, and lifelong learning alongside developing and trusting your intuition.",
-        image: "/images/approach3.png",
+        title: "Mental Performance Coaching (MPC)",
+        description: "Personalized mental training that builds resilience, sharpens focus, and develops the mindset to perform under pressure.",
+        image: "/images/approach6.png",
     },
 ];
 
@@ -30,13 +30,13 @@ export default function MaslinAcademyOffers() {
                 <div className="flex flex-col items-center gap-8 md:gap-12">
                     <div className="flex flex-col items-center gap-3 md:gap-4 w-full max-w-[920px]">
                         <p className="text-ink font-rubik font-light text-[14px] md:text-[16px] leading-[24px] tracking-[0.1em] uppercase text-center">
-                            OUR APPROACH
+                            Programs
                         </p>
                         <h2 className="text-ink font-rubik font-medium text-[28px] md:text-[34px] lg:text-[38px] leading-[130%] text-center max-w-[700px]">
-                            What Makes Maslin Academy Different?
+                            Maslin Academy Offers a Variety of Programs and Services
                         </h2>
                         <p className="text-ink font-rubik font-normal text-[16px] md:text-[18px] lg:text-[20px] leading-[160%] text-center max-w-[700px]">
-                            We exist to <span className="font-bold italic text-gold">INSPIRE</span> a lasting appreciation for learning, develop critical thinking and to <span className="font-bold italic text-gold">EMPOWER</span> academic independence and lifelong success.
+                            Our <span className="font-bold italic text-gold">Holistic</span> approach bridges the critical gaps in education, supporting students from elementary school to university <span className="font-bold italic text-gold">SUCCESS</span>.
                         </p>
                     </div>
                     <div className="flex flex-col md:flex-row gap-6 w-full">

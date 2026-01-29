@@ -29,7 +29,7 @@ export default function VetTrainSupport() {
                                 We Don&apos;t Just Hire Tutors – We Thoroughly Vet, Train and Continuously Support
                             </h2>
                             <p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]">
-                                Every tutor begins their journey with a personal interview with Phil, our co-founder. This isn&apos;t just a formality – it&apos;s where we assess teaching philosophy, communication style, and genuine passion for education. We're looking for people who <span className="font-bold text-gold">CARE DEEPLY</span> about student growth, not just credentials on paper.
+                                Every tutor begins their journey with a personal interview with Phil, our co-founder. This isn&apos;t just a formality – it&apos;s where we assess teaching philosophy, communication style, and genuine passion for education. We&apos;re looking for people who <span className="font-bold text-gold">CARE DEEPLY</span> about student growth, not just credentials on paper.
                             </p>
                             <p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]">
                                 Before any tutor works with students, they complete <span className="font-bold text-gold">COMPREHENSIVE TRAINING</span> on our proven instructional approaches:

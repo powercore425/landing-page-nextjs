@@ -4,6 +4,7 @@ import { ReactNode } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import GitHubIcon from "./GitHubIcon";
+import ScrollToTop from "./ScrollToTop";
 
 interface PageLayoutProps {
   children: ReactNode;
@@ -18,6 +19,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
         {children}
       </main>
       <Footer />
+      <ScrollToTop />
     </>
   );
 }

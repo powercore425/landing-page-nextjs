@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import PageLayout from "@/components/PageLayout";
 import Hero from "@/components/Hero";
 import BuildingKnowledge from "@/components/BuildingKnowledge";
 import WhatMakesDifferent from "@/components/WhatMakesDifferent";
@@ -10,14 +10,10 @@ import StopGuessing from "@/components/StopGuessing";
 import SuccessStory from "@/components/SuccessStory";
 import ConsultationForm from "@/components/ConsultationForm";
 import FAQ from "@/components/FAQ";
-import Footer from "@/components/Footer";
-import GitHubIcon from "@/components/GitHubIcon";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-paper overflow-x-hidden">
-      <GitHubIcon />
-      <Navbar />
+    <PageLayout>
       <Hero />
       <BuildingKnowledge />
       <WhatMakesDifferent />
@@ -29,7 +25,6 @@ export default function Home() {
       <SuccessStory />
       <ConsultationForm />
       <FAQ />
-      <Footer />
-    </main>
+    </PageLayout>
   );
 }

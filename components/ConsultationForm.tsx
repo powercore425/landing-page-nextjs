@@ -4,7 +4,12 @@ import { useState } from "react";
 import Image from "next/image";
 import { useAnimation } from "./AnimatedSection";
 
-export default function ConsultationForm() {
+
+interface ConsultationFormProps {
+  isContact?: boolean;
+}
+
+export default function ConsultationForm({ isContact = false }: ConsultationFormProps) {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -53,7 +58,7 @@ export default function ConsultationForm() {
         <div className="bg-paper rounded-[20px]">
           <div className="flex flex-col gap-4 md:gap-6 mb-8 md:mb-12">
             <h2 className="text-ink font-rubik font-bold text-[28px] md:text-[34px] lg:text-[38px] xl:text-[42px] leading-[110%] text-center">
-              Book a Free Consultation
+              {isContact ? "We'd Love to Hear From You" : "Book a Free Consultation"}
             </h2>
             <p className="text-ink font-rubik font-normal text-[14px] lg:text-[16px] leading-[160%] text-center">
               Send us a messge or book your free consultation today to get started the Maslin Way. If we&apos;re a good fit - we&apos;ll get started right away.

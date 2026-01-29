@@ -32,7 +32,7 @@ export default function BuildingKnowledge() {
                 Maslin Academy: Building Knowledge, Step by Step
               </h2>
               <p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]">
-                Founded by educators frustrated with the guesswork in traditional tutoring, we built something different: a <span className="font-bold italic text-gold">Holistic SYSTEM</span> that treats academic improvement like the science it should be. Our team brings together diagnostic assessments, subject-matter experts, and mental performance coaches – three elements that are critical for academic and professional success.              </p>
+                Founded by educators frustrated with the guesswork in traditional tutoring, we built something different: a <span className="font-bold italic text-gold">Holistic SYSTEM</span> that treats academic improvement like the science it should be. Our team brings together diagnostic assessments, subject-matter experts, and mental performance coaches – three elements that are critical for academic and professional success.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
               <button className="w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-[4px] font-rubik font-normal text-[14px] md:text-[16px] leading-[160%] hover:opacity-90 transition-opacity">

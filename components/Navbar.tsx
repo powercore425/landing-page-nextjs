@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +32,7 @@ export default function Navbar() {
       )}
       <div className="w-full max-w-[1120px] h-[50px] flex flex-row justify-between items-center gap-4 md:gap-8 lg:gap-40">
         {/* Logo */}
-        <div className="w-[120px] md:w-[150px] lg:w-[186px] h-[40px] md:h-[50px] flex items-center justify-center flex-shrink-0 overflow-hidden">
+        <Link href="/" className="w-[120px] md:w-[150px] lg:w-[186px] h-[40px] md:h-[50px] flex items-center justify-center flex-shrink-0 overflow-hidden hover:opacity-80 transition-opacity">
           <Image
             src="/images/top_logo.png"
             alt="MAS Logo"
@@ -40,36 +41,36 @@ export default function Navbar() {
             className="object-contain w-full h-full"
             priority
           />
-        </div>
+        </Link>
 
         {/* Desktop menu */}
         <div className="hidden lg:flex flex-row items-center gap-4 xl:gap-6 max-w-full h-[34px]">
           {/* Menu items */}
           <div className="flex flex-row items-center gap-4 xl:gap-8 max-w-full h-[26px]">
-            <a
-              href="#tutors"
+            <Link
+              href="/our-tutors"
               className="text-ink font-rubik font-normal text-base leading-[160%] hover:opacity-80 transition-opacity whitespace-nowrap"
             >
               Our Tutors
-            </a>
-            <a
-              href="#about"
+            </Link>
+            <Link
+              href="/about-us"
               className="text-ink font-rubik font-normal text-base leading-[160%] hover:opacity-80 transition-opacity whitespace-nowrap"
             >
               About Us
-            </a>
-            <a
-              href="#programs"
+            </Link>
+            <Link
+              href="/programs-pricing"
               className="text-ink font-rubik font-normal text-base leading-[160%] hover:opacity-80 transition-opacity whitespace-nowrap"
             >
               Programs & Pricing
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              href="/contact"
               className="text-ink font-rubik font-normal text-base leading-[160%] hover:opacity-80 transition-opacity whitespace-nowrap"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
 
           {/* Button */}
@@ -115,9 +116,9 @@ export default function Navbar() {
         isOpen && (
           <div className="lg:hidden bg-paper border-t border-border w-full">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="#tutors" className="text-ink block px-3 py-2 text-base font-medium font-rubik">
+              <Link href="/our-tutors" className="text-ink block px-3 py-2 text-base font-medium font-rubik">
                 Our Tutors
-              </a>
+              </Link>
               <a href="#about" className="text-ink block px-3 py-2 text-base font-medium font-rubik">
                 About Us
               </a>

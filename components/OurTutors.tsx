@@ -24,9 +24,34 @@ const tutors = [
     subjects: ["Math", "Physics", "Chemistry"],
     image: "/images/head4.jpg",
   },
+  {
+    name: "Taylor Eastwood",
+    subjects: ["Math", "Statistics",],
+    image: "/images/head5.png",
+  },
+  {
+    name: "Shimi Smith",
+    subjects: ["Math", "Computer Science", "AI"],
+    image: "/images/head6.png",
+  },
+  {
+    name: "Parsa Salehi",
+    subjects: ["Math", "Chemistry"],
+    image: "/images/head7.png",
+  },
+  {
+    name: "Emile D’Amours",
+    subjects: ["Math", "Physics", "Chemistry"],
+    image: "/images/head8.png",
+  },
 ];
 
-export default function OurTutors() {
+interface OurTutorsProps {
+  isShowMore?: boolean;
+  isShowAction?: boolean
+}
+
+export default function OurTutors({ isShowMore = false, isShowAction = true }: OurTutorsProps) {
   const { ref, className, style } = useAnimation({ direction: "down", delay: 100 });
 
   return (
@@ -47,15 +72,17 @@ export default function OurTutors() {
             OUR TUTORS
           </p>
           <h2 className="text-white font-rubik font-bold text-[28px] md:text-[34px] lg:text-[38px] xl:text-[42px] leading-[110%] mb-4 md:mb-6">
-            We Hand-Select Only the Best Tutors
+            {isShowMore ? "Meet the Maslin Academy Team" : "We Hand-Select Only the Best Tutors"}
           </h2>
           <p className="text-white font-rubik font-normal text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[160%]">
             Exceptional educators, committed to building <span className="text-gold font-bold italic">CONFIDENCE</span> and<span className="hidden md:inline"><br /></span> <span className="text-gold font-bold italic">COMPETENCE</span> with students.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8 md:mb-12 items-start">
-          {tutors.map((tutor, index) => (
-            <div key={index} className="bg-paper rounded-[20px] shadow-lg p-4 md:p-6 flex flex-col items-center">
+          {tutors.map((tutor, index) => {
+            if (index >= 4 && !isShowMore) return null;
+
+            return <div key={index} className="bg-paper rounded-[20px] shadow-lg p-4 md:p-6 flex flex-col items-center">
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-paper mb-3 md:mb-4 flex items-center justify-center overflow-hidden flex-shrink-0">
                 <Image
                   src={tutor.image}
@@ -72,13 +99,16 @@ export default function OurTutors() {
                 {tutor.subjects.join(", ")}
               </p>
             </div>
-          ))}
+
+          })}
         </div>
-        <div className="text-center">
-          <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-gold text-ink rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
-            See All Tutors
-          </button>
-        </div>
+        {
+          isShowAction && <div className="text-center">
+            <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-gold text-ink rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+              {isShowMore ? "Book a Consultation" : "See All Tutors"}
+            </button>
+          </div>
+        }
       </div>
     </section>
   );

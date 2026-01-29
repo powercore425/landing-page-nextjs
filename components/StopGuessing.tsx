@@ -24,7 +24,7 @@ export default function StopGuessing() {
           </div>
 
           {/* Right - Content */}
-          <div className="flex flex-col gap-4 md:gap-6 flex-1">
+          <div className="flex flex-col gap-4 md:gap-6 flex-1 items-start">
             <p className="text-grey font-rubik font-light text-[14px] md:text-[16px] leading-[24px] tracking-[0.1em] uppercase">
               GAP ANALYSIS
             </p>
@@ -36,7 +36,7 @@ export default function StopGuessing() {
             </p>
             <Link
               href="/gap-analysis"
-              className="w-full sm:w-auto px-5 py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+              className="w-full sm:w-auto px-5 py-2 text-center bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
               What&apos;s A Gap Analysis?
             </Link>
           </div>
@@ -45,7 +45,7 @@ export default function StopGuessing() {
       <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-12 lg:px-20">
         <div className="flex flex-col sm:flex-row gap-8 md:gap-12 lg:gap-20 items-start">
           {/* Left - Content */}
-          <div className="flex flex-col gap-4 md:gap-6 flex-1">
+          <div className="flex flex-col gap-4 md:gap-6 flex-1 items-start">
             <p className="text-grey font-rubik font-light text-[14px] md:text-[16px] leading-[24px] tracking-[0.1em] uppercase">
               MENTAL PERFORMANCE COACHING (MPC)
             </p>
@@ -57,7 +57,7 @@ export default function StopGuessing() {
             </p>
             <Link
               href="/mpc"
-              className="w-full sm:w-auto px-5 py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+              className="w-full sm:w-auto px-5 text-center py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
               What is MPC?
             </Link>
           </div>

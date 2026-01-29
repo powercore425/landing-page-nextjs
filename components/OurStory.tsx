@@ -11,7 +11,7 @@ const founders = [
     linkedin: "https://linkedin.com/in/philipe-andre",
     description: (
       <>
-        <span className="font-bold text-ink">PHILIPE ANDRE</span> brings over a decade of tutoring experience and an unwavering belief that "anything is teachable." With dreams of becoming a Physics and Math professor, Phil has spent years working with students of all ages and abilities across countless subjects. <br /><br />Even while pursuing post-graduate studies at the University of Ottawa, he's never stopped tutoring – because for Phil, teaching isn't just work. It's a calling. He pours his heart into every student he takes on, driven by a <span className="font-bold text-gold">GENUINE PASSION</span> for helping young minds unlock their potential.
+        <span className="font-bold text-ink">PHILIPE ANDRE</span> brings over a decade of tutoring experience and an unwavering belief that &quot;anything is teachable.&quot; With dreams of becoming a Physics and Math professor, Phil has spent years working with students of all ages and abilities across countless subjects. <br /><br />Even while pursuing post-graduate studies at the University of Ottawa, he&apos;s never stopped tutoring – because for Phil, teaching isn&apos;t just work. It&apos;s a calling. He pours his heart into every student he takes on, driven by a <span className="font-bold text-gold">GENUINE PASSION</span> for helping young minds unlock their potential.
       </>
     ),
   },
@@ -21,7 +21,7 @@ const founders = [
     linkedin: "https://linkedin.com/in/tatiana-turcanu",
     description: (
       <>
-        <span className="font-bold text-ink">TATIANA TURCANU</span>, a recent University of Ottawa graduate with a Bachelor's in Health Sciences, brings six years of specialized tutoring in Biology and Chemistry.<br /><br />Her experience extends beyond high school to university-level instruction, including collaboration with teaching assistants and contributions to lesson plan development. <br /><br />Her philosophy is beautifully simple yet <span className="font-bold text-gold">TRANSFORMATIVE</span>: &quot;My goal for all my students is to teach them to never need me again. It all starts with reaching out for help :)&quot;
+        <span className="font-bold text-ink">TATIANA TURCANU</span>, a recent University of Ottawa graduate with a Bachelor&apos;s in Health Sciences, brings six years of specialized tutoring in Biology and Chemistry.<br /><br />Her experience extends beyond high school to university-level instruction, including collaboration with teaching assistants and contributions to lesson plan development. <br /><br />Her philosophy is beautifully simple yet <span className="font-bold text-gold">TRANSFORMATIVE</span>: &quot;My goal for all my students is to teach them to never need me again. It all starts with reaching out for help :)&quot;
       </>
     ),
   },
@@ -124,7 +124,7 @@ export default function OurStory() {
                 </div>
 
                 {/* Founder Description */}
-                < p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]" >
+                <p className="text-ink font-rubik font-normal text-[14px] md:text-[16px] leading-[160%]">
                   {founder.description}
                 </p>
               </div>

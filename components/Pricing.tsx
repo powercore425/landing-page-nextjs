@@ -44,7 +44,7 @@ export default function Pricing() {
                 {/* Cards */}
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 items-start">
                     {/* Left card */}
-                    <div className="bg-paper border-2 border-gold rounded-[20px] p-6 md:p-8 flex flex-col">
+                    <div className="bg-paper border-2 border-gold rounded-[20px] p-6 md:p-8 flex flex-col transition-transform duration-300 ease-out hover:scale-105 hover:shadow-xl cursor-pointer">
                         <h3 className="text-ink font-rubik font-bold text-[20px] md:text-[22px] leading-[130%] mb-4">
                             Emergency Cramming
                         </h3>
@@ -68,12 +68,12 @@ export default function Pricing() {
                     </div>
 
                     {/* Middle card */}
-                    <div className="bg-midnight border-2 border-midnight rounded-[20px] p-6 md:p-8 flex flex-col relative overflow-hidden">
+                    <div className="bg-midnight border-2 border-midnight rounded-[20px] p-6 md:p-8 flex flex-col relative overflow-hidden transition-transform duration-300 ease-out hover:scale-105 hover:shadow-xl cursor-pointer">
                         <div className="absolute inset-0 opacity-10">
                             <Image src="/images/tutors_bg.png" alt="Card background" fill className="object-cover" />
                         </div>
                         <div className="relative z-10 flex flex-col h-full">
-                            <div className="flex items-center justify-center w-16 h-20 mx-auto rounded-full border-2 border-gold text-gold mb-4 relative" >
+                            <div className="flex items-center justify-center w-16 h-20 mx-auto rounded-full text-gold mb-4 relative" >
                                 <Image
                                     src={"/images/gold_logo.png"}
                                     alt={'Gold Logo'}
@@ -104,7 +104,7 @@ export default function Pricing() {
                     </div>
 
                     {/* Right card */}
-                    <div className="bg-paper border-2 border-gold rounded-[20px] p-6 md:p-8 flex flex-col">
+                    <div className="bg-paper border-2 border-gold rounded-[20px] p-6 md:p-8 flex flex-col transition-transform duration-300 ease-out hover:scale-105 hover:shadow-xl cursor-pointer">
                         <h3 className="text-ink font-rubik font-bold text-[20px] md:text-[22px] leading-[130%] mb-4">
                             University Tutoring
                         </h3>

@@ -74,7 +74,7 @@ export default function Navbar() {
           </div>
 
           {/* Button */}
-          <button className="flex flex-row bg-ink justify-center items-center px-5 py-2 text-paper rounded font-rubik font-normal text-sm xl:text-base leading-[160%] hover:opacity-90 transition-opacity whitespace-nowrap flex-shrink-0">
+          <button className="flex flex-row bg-ink justify-center items-center px-5 py-2 text-paper rounded font-rubik font-normal text-sm xl:text-base leading-[160%] hover:opacity-60 transition-opacity whitespace-nowrap flex-shrink-0">
             Book a Consultation
           </button>
         </div>

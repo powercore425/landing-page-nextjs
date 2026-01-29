@@ -40,12 +40,12 @@ export default function Hero() {
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row items-start gap-4 md:gap-6">
                 {/* Let's Talk Button */}
-                <button className="w-full sm:w-auto flex flex-row justify-center items-center px-5 py-2 bg-ink text-paper border-2 border-ink rounded font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+                <button className="w-full sm:w-auto flex flex-row justify-center items-center px-5 py-2 bg-ink text-paper border-2 border-ink rounded font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-60 transition-opacity">
                   Let&apos;s Talk
                 </button>
 
                 {/* Our Approach Button */}
-                <button className="w-full sm:w-auto flex flex-row justify-center items-center px-5 py-2 bg-paper text-gold border-2 border-gold rounded font-rubik font-normal text-sm md:text-base leading-[160%] hover:bg-gold/20 transition-colors">
+                <button className="w-full sm:w-auto flex flex-row justify-center items-center px-5 py-2 bg-paper text-gold border-2 border-gold rounded font-rubik font-normal text-sm md:text-base leading-[160%] hover:bg-gold hover:text-paper transition-colors">
                   Our Approach
                 </button>
               </div>

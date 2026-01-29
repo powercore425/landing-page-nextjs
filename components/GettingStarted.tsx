@@ -83,7 +83,7 @@ export default function GettingStarted() {
 
           {/* Button */}
           <div className="text-center">
-            <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-ink text-paper rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+            <button className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-ink text-paper rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-60 transition-opacity">
               Book Free Consultation
             </button>
           </div>

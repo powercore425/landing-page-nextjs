@@ -36,7 +36,7 @@ export default function StopGuessing() {
             </p>
             <Link
               href="/gap-analysis"
-              className="w-full sm:w-auto px-5 py-2 text-center bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+              className="w-full sm:w-auto px-5 py-2 text-center bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:bg-gold hover:text-paper transition-opacity">
               What&apos;s A Gap Analysis?
             </Link>
           </div>
@@ -57,7 +57,7 @@ export default function StopGuessing() {
             </p>
             <Link
               href="/mpc"
-              className="w-full sm:w-auto px-5 text-center py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:opacity-90 transition-opacity">
+              className="w-full sm:w-auto px-5 text-center py-2 bg-paper text-gold border-2 border-gold rounded-lg font-rubik font-normal text-sm md:text-base leading-[160%] hover:bg-gold hover:text-paper transition-opacity">
               What is MPC?
             </Link>
           </div>

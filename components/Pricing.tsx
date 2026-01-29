@@ -62,7 +62,7 @@ export default function Pricing() {
                             * Extra fees are added for the administrative costs associated for priority services for any grade
                             level.
                         </p>
-                        <button className="mt-auto w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-[4px] font-rubik font-normal text-[14px] leading-[160%] hover:opacity-90 transition-opacity">
+                        <button className="mt-auto w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-[4px] font-rubik font-normal text-[14px] leading-[160%] hover:opacity-60 transition-opacity">
                             Inquiry Today
                         </button>
                     </div>
@@ -97,7 +97,7 @@ export default function Pricing() {
                                 <li>Work through a custom learning roadmap that fixes old holes while staying ahead of school</li>
                                 <li>Use weekly low-stakes testing + deliberate practice</li>
                             </ul>
-                            <button className="mt-auto w-full sm:w-auto px-5 py-2 bg-gold text-midnight rounded-[4px] font-rubik font-normal text-[14px] leading-[160%] hover:opacity-90 transition-opacity">
+                            <button className="mt-auto w-full sm:w-auto px-5 py-2 bg-gold text-midnight rounded-[4px] font-rubik font-normal text-[14px] leading-[160%] hover:opacity-60 transition-opacity">
                                 Inquiry Today
                             </button>
                         </div>
@@ -118,7 +118,7 @@ export default function Pricing() {
                             <li>Test prep</li>
                             <li>Supplementary mental performance tools</li>
                         </ul>
-                        <button className="mt-auto w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-[4px] font-rubik font-normal text-[14px] leading-[160%] hover:opacity-90 transition-opacity">
+                        <button className="mt-auto w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-[4px] font-rubik font-normal text-[14px] leading-[160%] hover:opacity-60 transition-opacity">
                             Inquiry Today
                         </button>
                     </div>

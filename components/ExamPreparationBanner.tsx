@@ -42,7 +42,7 @@ export default function ExamPreparationBanner() {
           {/* Call-to-Action Button */}
           <Link
             href="/exam-prep"
-            className="px-5 py-2 bg-ink text-paper rounded-lg font-rubik font-normal text-base md:text-lg leading-[160%] hover:opacity-90 transition-opacity"
+            className="px-5 py-2 bg-ink text-paper rounded-lg font-rubik font-normal text-base md:text-lg leading-[160%] hover:opacity-60 transition-opacity"
           >
             Exam Preparation
           </Link>

@@ -47,7 +47,7 @@ export default function VetTrainSupport() {
                             </ul>
                         </div>
                         <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
-                            <button className="w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-[4px] font-rubik font-normal text-[14px] md:text-[16px] leading-[160%] hover:opacity-90 transition-opacity">
+                            <button className="w-full sm:w-auto px-5 py-2 bg-ink text-paper rounded-[4px] font-rubik font-normal text-[14px] md:text-[16px] leading-[160%] hover:opacity-60 transition-opacity">
                                 Meet the Team
                             </button>
                             <button className="w-full sm:w-auto px-5 py-2 bg-transparent text-gold border-2 border-gold rounded-[4px] font-rubik font-normal text-[14px] md:text-[16px] leading-[160%] hover:bg-gold hover:text-paper transition-colors">

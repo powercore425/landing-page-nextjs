@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function GitHubIcon() {
     return (
         <Link
-            href="https://github.com/powercore425"
+            href="https://github.com/whitehorse21"
             target="_blank"
             rel="noopener noreferrer"
             className="fixed left-4 md:left-6 top-1/2 -translate-y-1/2 z-40 w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-paper border-2 border-border hover:border-gold transition-all duration-300 hover:bg-gold/10 group"
